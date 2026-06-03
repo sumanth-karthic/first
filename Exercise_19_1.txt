@@ -1,0 +1,21 @@
+npm init -y
+
+npm install bootstrap
+
+npm install sass
+
+Project Structure
+
+project/
+│
+├── scss/
+│   └── custom.scss
+│
+├── css/
+│   └── custom.css
+│
+└── index.html
+
+Compile Sass
+
+sass scss/custom.scss css/custom.css
